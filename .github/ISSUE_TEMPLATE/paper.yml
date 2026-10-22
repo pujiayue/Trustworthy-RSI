@@ -1,0 +1,35 @@
+name: Suggest a paper
+description: Propose a reference for the Trustworthy RSI reading list.
+title: "[Paper] "
+labels: []
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      description: An arXiv, publisher, or author project link.
+    validations:
+      required: true
+  - type: input
+    id: metadata
+    attributes:
+      label: Authors, year, and venue
+    validations:
+      required: true
+  - type: input
+    id: taxonomy
+    attributes:
+      label: Suggested subsection
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and evidence
+      description: Explain the connection to trustworthy RSI and the scope of the evidence.
+    validations:
+      required: true

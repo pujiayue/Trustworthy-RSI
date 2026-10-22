@@ -1,0 +1,16 @@
+name: Correct a reference or taxonomy placement
+description: Report a metadata error, broken source link, or classification issue.
+title: "[Correction] "
+body:
+  - type: input
+    id: reference
+    attributes:
+      label: Citation key or section
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction and supporting source
+    validations:
+      required: true

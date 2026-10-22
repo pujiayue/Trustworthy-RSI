@@ -1,0 +1,1796 @@
+[
+  {
+    "id": "introduction",
+    "title": "Introduction",
+    "papers": [
+      {
+        "id": "schumacher1973small",
+        "label": "Small Is Beautiful"
+      }
+    ],
+    "subsections": [
+      {
+        "id": "motivation",
+        "title": "Motivation",
+        "papers": [
+          {
+            "id": "openai2026gpt6astra",
+            "label": "GPT-6 Astra"
+          },
+          {
+            "id": "anthropic2026claudeopus55",
+            "label": "Claude Opus 5.5"
+          },
+          {
+            "id": "gao2026selfevolving",
+            "label": "A Survey of Self-Evolving Agents"
+          },
+          {
+            "id": "zweiger2025seal",
+            "label": "SEAL (Self-Adapting LLMs)"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          },
+          {
+            "id": "zheng2026dreamrsi",
+            "label": "Dream-RSI"
+          },
+          {
+            "id": "wu2026modularrsi",
+            "label": "ModularRSI"
+          },
+          {
+            "id": "xia2026rrsi",
+            "label": "RRSI"
+          },
+          {
+            "id": "roesner2026trustingtrust",
+            "label": "Reflections on Trusting Trust, Revisited"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          },
+          {
+            "id": "song2026recursivecollapse",
+            "label": "Recursive Self-Training Collapse in Code LLMs"
+          },
+          {
+            "id": "zhang2026librarydrift",
+            "label": "Library Drift"
+          },
+          {
+            "id": "qi2024finetuning",
+            "label": "Fine-Tuning Aligned LLMs Compromises Safety"
+          },
+          {
+            "id": "zhao2026safetyrisks",
+            "label": "Safety Risks in Experience-Driven Agents"
+          },
+          {
+            "id": "wu2026socialbias",
+            "label": "Social Biases Through Adaptive Exploration"
+          },
+          {
+            "id": "dong2025minja",
+            "label": "MINJA"
+          },
+          {
+            "id": "wang2025agentmemoryprivacy",
+            "label": "MEXTRA"
+          }
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope & Perspective",
+        "papers": []
+      },
+      {
+        "id": "survey-comparison",
+        "title": "Related Surveys",
+        "papers": [
+          {
+            "id": "li2023trustworthy",
+            "label": "Trustworthy AI: From Principles to Practices"
+          },
+          {
+            "id": "liu2023trustworthyllms",
+            "label": "Trustworthy LLMs: A Survey and Guideline"
+          },
+          {
+            "id": "yu2025trustworthyagents",
+            "label": "A Survey on Trustworthy LLM Agents"
+          },
+          {
+            "id": "qi2026trustworthyagentic",
+            "label": "Towards trustworthy agentic AI"
+          },
+          {
+            "id": "gao2026selfevolving",
+            "label": "A Survey of Self-Evolving Agents"
+          },
+          {
+            "id": "wang2026diving",
+            "label": "Diving into Reliable Self-Evolving Agents"
+          },
+          {
+            "id": "wu2026ai4ai",
+            "label": "AI4AI Survey"
+          },
+          {
+            "id": "chen2026recursive",
+            "label": "Recursive Self-Improvement in AI"
+          },
+          {
+            "id": "duan2026last",
+            "label": "The Last AI Built by Humans"
+          }
+        ]
+      },
+      {
+        "id": "contributions",
+        "title": "Contributions",
+        "papers": [
+          {
+            "id": "mitchell1997ml",
+            "label": "Machine Learning"
+          }
+        ]
+      },
+      {
+        "id": "organization",
+        "title": "Paper Organization",
+        "papers": []
+      }
+    ]
+  },
+  {
+    "id": "foundations",
+    "title": "Preliminaries",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "rsi-foundations",
+        "title": "RSI in Large Models",
+        "papers": [
+          {
+            "id": "mitchell1997ml",
+            "label": "Machine Learning"
+          },
+          {
+            "id": "silver2025welcome",
+            "label": "Welcome to the era of experience"
+          },
+          {
+            "id": "mitchell1980bias",
+            "label": "Biases in Learning Generalizations"
+          }
+        ]
+      },
+      {
+        "id": "trustworthiness-concepts",
+        "title": "Trustworthiness Requirements",
+        "papers": [
+          {
+            "id": "li2023trustworthy",
+            "label": "Trustworthy AI: From Principles to Practices"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          },
+          {
+            "id": "huang2024trustllm",
+            "label": "TrustLLM"
+          },
+          {
+            "id": "hleg2019ethics",
+            "label": "Ethics Guidelines for Trustworthy AI"
+          },
+          {
+            "id": "liu2023trustworthyllms",
+            "label": "Trustworthy LLMs: A Survey and Guideline"
+          },
+          {
+            "id": "soares2015corrigibility",
+            "label": "Corrigibility"
+          }
+        ]
+      },
+      {
+        "id": "rsi-trustworthiness",
+        "title": "Trustworthiness Under RSI",
+        "papers": []
+      }
+    ]
+  },
+  {
+    "id": "validity",
+    "title": "Genuine & Sustained Improvement",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "validity-definitions",
+        "title": "Definitions & Claims",
+        "papers": [
+          {
+            "id": "li2023trustworthy",
+            "label": "Trustworthy AI: From Principles to Practices"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          },
+          {
+            "id": "chen2026recursive",
+            "label": "Recursive Self-Improvement in AI"
+          },
+          {
+            "id": "wang2026diving",
+            "label": "Diving into Reliable Self-Evolving Agents"
+          },
+          {
+            "id": "duan2026last",
+            "label": "The Last AI Built by Humans"
+          }
+        ]
+      },
+      {
+        "id": "validity-risks",
+        "title": "Risks & Failures",
+        "papers": [
+          {
+            "id": "shumailov2024collapse",
+            "label": "Model Collapse on Recursively Generated Data"
+          },
+          {
+            "id": "alemohammad2024mad",
+            "label": "Self-Consuming Generative Models Go MAD"
+          },
+          {
+            "id": "suresh2024collapserate",
+            "label": "Rate of Model Collapse in Recursive Training"
+          },
+          {
+            "id": "song2026recursivecollapse",
+            "label": "Recursive Self-Training Collapse in Code LLMs"
+          },
+          {
+            "id": "wu2024reversal",
+            "label": "Self-Improvement Reversal in Post-training"
+          },
+          {
+            "id": "zhang2026credit",
+            "label": "Credit Without Ground Truth"
+          },
+          {
+            "id": "huang2024selfcorrect",
+            "label": "LLMs Cannot Self-Correct Reasoning Yet"
+          },
+          {
+            "id": "cheng2026contextualdrag",
+            "label": "Contextual Drag"
+          },
+          {
+            "id": "skalse2022rewardhacking",
+            "label": "Defining and Characterizing Reward Hacking"
+          },
+          {
+            "id": "roth2026hackverifiable",
+            "label": "Hack-Verifiable TextArena"
+          },
+          {
+            "id": "si2026executiongrounded",
+            "label": "Execution-Grounded Automated AI Research"
+          },
+          {
+            "id": "yang2026spurious",
+            "label": "Spurious Tool Use"
+          },
+          {
+            "id": "wang2026harnessevaluation",
+            "label": "Evaluating Harness Evolution for Agents"
+          },
+          {
+            "id": "yuan2025selfrewarding",
+            "label": "Self-Rewarding Language Models"
+          },
+          {
+            "id": "yin2023selfknowledge",
+            "label": "SelfAware"
+          },
+          {
+            "id": "kadavath2022know",
+            "label": "Language Models (Mostly) Know What They Know"
+          },
+          {
+            "id": "chen2026falsefrontiers",
+            "label": "CrossFit (False Frontiers)"
+          },
+          {
+            "id": "guo2026selfauthored",
+            "label": "SEAL (Sealed Exogenous Acceptance Loop)"
+          },
+          {
+            "id": "shao2026protocolvalidity",
+            "label": "HackDetect"
+          },
+          {
+            "id": "wang2026whenbettergetsworse",
+            "label": "PIVOT-KG"
+          },
+          {
+            "id": "zhang2026grader",
+            "label": "Double Ratchet"
+          },
+          {
+            "id": "yu2026forget",
+            "label": "Capability-Preserving Evolution (CPE)"
+          },
+          {
+            "id": "yuan2026seva",
+            "label": "SEVA"
+          },
+          {
+            "id": "zhang2026librarydrift",
+            "label": "Library Drift"
+          },
+          {
+            "id": "shang2026precommit",
+            "label": "Verifier-as-Gatekeeper (VaG)"
+          },
+          {
+            "id": "feng2026evolvingtogether",
+            "label": "CO-evolution Drift Audit (CODA)"
+          },
+          {
+            "id": "lin2026harnessbenefit",
+            "label": "Harness Updating Is Not Harness Benefit"
+          },
+          {
+            "id": "wu2024metarewarding",
+            "label": "Meta-Rewarding Language Models"
+          },
+          {
+            "id": "li2026evolm",
+            "label": "EvoLM"
+          },
+          {
+            "id": "wang2026serpo",
+            "label": "SERPO"
+          },
+          {
+            "id": "shi2026aevolvetraining",
+            "label": "A-Evolve-Training"
+          }
+        ]
+      },
+      {
+        "id": "validity-safeguards",
+        "title": "Safeguards & Limits",
+        "papers": [
+          {
+            "id": "gerstgrasser2024accumulating",
+            "label": "Is Model Collapse Inevitable?"
+          },
+          {
+            "id": "xu2026rise",
+            "label": "RISE"
+          },
+          {
+            "id": "mishra2026prism",
+            "label": "Prism"
+          },
+          {
+            "id": "zhang2026selaur",
+            "label": "SELAUR"
+          },
+          {
+            "id": "zhang2025ace",
+            "label": "ACE (Agentic Context Engineering)"
+          },
+          {
+            "id": "fan2026evolvingrl",
+            "label": "Evolving-RL"
+          },
+          {
+            "id": "singh2023restem",
+            "label": "ReSTEM"
+          },
+          {
+            "id": "fu2025selfverification",
+            "label": "Self-Verification Prevents Model Collapse"
+          },
+          {
+            "id": "yi2025escapingcollapse",
+            "label": "Model Collapse: Synthetic Data Verification"
+          },
+          {
+            "id": "mouret2015mapelites",
+            "label": "MAP-Elites"
+          },
+          {
+            "id": "pugh2016qualitydiversity",
+            "label": "Quality Diversity (QD)"
+          },
+          {
+            "id": "luo2026harnessbank",
+            "label": "HarnessBank"
+          },
+          {
+            "id": "du2026mlevolve",
+            "label": "MLEvolve"
+          },
+          {
+            "id": "zweiger2025seal",
+            "label": "SEAL (Self-Adapting LLMs)"
+          },
+          {
+            "id": "chen2026lse",
+            "label": "LSE (Learning to Self-Evolve)"
+          },
+          {
+            "id": "jiang2025aide",
+            "label": "AIDE"
+          },
+          {
+            "id": "novikov2025alphaevolve",
+            "label": "AlphaEvolve"
+          },
+          {
+            "id": "li2026rst",
+            "label": "RST (Recursive Synthetic Terminal Tasks)"
+          },
+          {
+            "id": "yang2026skillopt",
+            "label": "SkillOpt"
+          },
+          {
+            "id": "fu2026sift",
+            "label": "SIFT"
+          },
+          {
+            "id": "xia2026rrsi",
+            "label": "RRSI"
+          },
+          {
+            "id": "zhang2026harnesscompass",
+            "label": "HarnessCompass"
+          },
+          {
+            "id": "nguyen2026rsea",
+            "label": "RSEA"
+          },
+          {
+            "id": "jiang2026harnessevolve",
+            "label": "HarnessEvolve"
+          },
+          {
+            "id": "dwork2015reusable",
+            "label": "The Reusable Holdout"
+          },
+          {
+            "id": "perez2022modelwritten",
+            "label": "Model-Written Evaluations"
+          },
+          {
+            "id": "tu2026benchguard",
+            "label": "BenchGuard"
+          },
+          {
+            "id": "wang2026benchmarkaudit",
+            "label": "Auto Benchmark Audit (ABA)"
+          },
+          {
+            "id": "seo2025factverifiers",
+            "label": "Verifying the Verifiers"
+          },
+          {
+            "id": "liu2026autoresearch",
+            "label": "AutoResearch"
+          },
+          {
+            "id": "wu2026medrsirecursiveselfimprovementmedical",
+            "label": "MedRSI"
+          },
+          {
+            "id": "dhuliawala2023cove",
+            "label": "Chain-of-Verification (CoVe)"
+          },
+          {
+            "id": "gou2023critic",
+            "label": "CRITIC"
+          },
+          {
+            "id": "guan2025rstarmath",
+            "label": "rStar-Math"
+          },
+          {
+            "id": "jin2025reveal",
+            "label": "ReVeal"
+          },
+          {
+            "id": "lightman2023processsupervision",
+            "label": "PRM800K (process supervision)"
+          },
+          {
+            "id": "wu2026stv",
+            "label": "STV"
+          },
+          {
+            "id": "wan2026deepverifier",
+            "label": "DeepVerifier"
+          },
+          {
+            "id": "iacob2026redqueen",
+            "label": "Red Queen Gödel Machine"
+          },
+          {
+            "id": "xu2026drafting",
+            "label": "SpecRSI"
+          },
+          {
+            "id": "shawn2026pace",
+            "label": "PACE"
+          },
+          {
+            "id": "wu2026sgm",
+            "label": "SGM"
+          },
+          {
+            "id": "schmidhuber2011powerplay",
+            "label": "POWERPLAY"
+          },
+          {
+            "id": "moll2026grasp",
+            "label": "GRASP"
+          },
+          {
+            "id": "zhang2026selfharness",
+            "label": "Self-Harness"
+          },
+          {
+            "id": "karten2026continualharness",
+            "label": "Continual Harness"
+          },
+          {
+            "id": "wang2026evohunt",
+            "label": "EvoHunt"
+          },
+          {
+            "id": "bai2026skillzip",
+            "label": "SkillZip"
+          },
+          {
+            "id": "yan2026pacevolve",
+            "label": "PACEvolve"
+          },
+          {
+            "id": "zhang2026coevoskills",
+            "label": "CoEvoSkills"
+          },
+          {
+            "id": "wang2026dynamicrubric",
+            "label": "DynamicRubric"
+          },
+          {
+            "id": "zhu2026skillcoach",
+            "label": "SkillCoach"
+          },
+          {
+            "id": "sui2026conl",
+            "label": "CoNL"
+          },
+          {
+            "id": "chen2026decoevo",
+            "label": "DecoEvo"
+          },
+          {
+            "id": "ding2026evorubrics",
+            "label": "EvoRubrics"
+          },
+          {
+            "id": "dai2026recursivereward",
+            "label": "Recursive Reward Improvement"
+          },
+          {
+            "id": "xu2026evo2",
+            "label": "Evo2"
+          },
+          {
+            "id": "zheng2026dreamrsi",
+            "label": "Dream-RSI"
+          },
+          {
+            "id": "guan2026evorubric",
+            "label": "EvoRubric"
+          },
+          {
+            "id": "zhang2026tempo",
+            "label": "TEMPO"
+          },
+          {
+            "id": "sengupta2026certificates",
+            "label": "SEA"
+          }
+        ]
+      },
+      {
+        "id": "validity-evidence",
+        "title": "Evidence & Research Gaps",
+        "papers": [
+          {
+            "id": "robeyns2025sica",
+            "label": "SICA"
+          },
+          {
+            "id": "hebbar2026sia",
+            "label": "SIA"
+          },
+          {
+            "id": "xu2026asievolve",
+            "label": "ASI-Evolve"
+          },
+          {
+            "id": "kumar2025score",
+            "label": "SCoRe"
+          },
+          {
+            "id": "lin2026selfregress",
+            "label": "Self-Improvement Can Self-Regress"
+          },
+          {
+            "id": "yin2025godel",
+            "label": "Gödel Agent"
+          },
+          {
+            "id": "lai2026reinforcement",
+            "label": "Reinforcement Fine-Tuning Reduces Forgetting"
+          },
+          {
+            "id": "schmidgall2025agentrxiv",
+            "label": "AgentRxiv"
+          },
+          {
+            "id": "yang2026frontis",
+            "label": "Frontis-MA1"
+          },
+          {
+            "id": "peng2025regenesis",
+            "label": "ReGenesis"
+          },
+          {
+            "id": "singh2026plasticity",
+            "label": "Agent Plasticity"
+          },
+          {
+            "id": "zelikman2024stop",
+            "label": "STOP"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          },
+          {
+            "id": "tang2026fars",
+            "label": "FARS"
+          },
+          {
+            "id": "vanderweij2025sandbagging",
+            "label": "AI Sandbagging"
+          },
+          {
+            "id": "wang2026harnessevaluation",
+            "label": "Evaluating Harness Evolution for Agents"
+          },
+          {
+            "id": "yue2025reasoningcapacity",
+            "label": "Does RL Enable Reasoning Beyond the Base?"
+          },
+          {
+            "id": "lin2026amnesia",
+            "label": "Scientific Amnesia in Continual DPO Pipelines"
+          },
+          {
+            "id": "ye2026fragility",
+            "label": "On the Fragility of Self-Improving Agents"
+          },
+          {
+            "id": "zhu2026rsiagent",
+            "label": "RSIAgent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "behavior",
+    "title": "Behavior, Alignment & Fairness",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "behavior-scope",
+        "title": "Scope & Claims",
+        "papers": []
+      },
+      {
+        "id": "behavior-failures",
+        "title": "Failures Across S1–S4 & RI",
+        "papers": [
+          {
+            "id": "zhao2026safetyrisks",
+            "label": "Safety Risks in Experience-Driven Agents"
+          },
+          {
+            "id": "kirk2024prism",
+            "label": "PRISM Alignment Dataset"
+          },
+          {
+            "id": "hashimoto2018fairness",
+            "label": "Fairness Without Demographics (DRO)"
+          },
+          {
+            "id": "wyllie2024fairnessloops",
+            "label": "Fairness Feedback Loops"
+          },
+          {
+            "id": "wang2026selfconsuming",
+            "label": "LLM Bias in Self-Consuming Performative Loop"
+          },
+          {
+            "id": "langosco2022goalmisgeneralization",
+            "label": "Goal Misgeneralization in Deep RL"
+          },
+          {
+            "id": "khalaf2025inferencerewardhacking",
+            "label": "Inference-Time Reward Hacking in LLMs"
+          },
+          {
+            "id": "everitt2021rewardtamperingproblemssolutions",
+            "label": "Reward Tampering: Problems and Solutions"
+          },
+          {
+            "id": "yin2026onpolicy",
+            "label": "FATE / PFPO"
+          },
+          {
+            "id": "liu2018delayed",
+            "label": "Delayed Impact of Fair Machine Learning"
+          },
+          {
+            "id": "han2025alignmenttipping",
+            "label": "Alignment Tipping Process (ATP)"
+          },
+          {
+            "id": "cundy2025liedetectors",
+            "label": "Lie Detectors in Preference Learning"
+          },
+          {
+            "id": "zhang2026grader",
+            "label": "Double Ratchet"
+          },
+          {
+            "id": "greenblatt2024alignmentfaking",
+            "label": "Alignment faking in large language models"
+          },
+          {
+            "id": "hall2025fairnessreward",
+            "label": "Fairness Reward Model (FRM)"
+          },
+          {
+            "id": "qi2024finetuning",
+            "label": "Fine-Tuning Aligned LLMs Compromises Safety"
+          },
+          {
+            "id": "betley2025emergent",
+            "label": "Emergent Misalignment"
+          },
+          {
+            "id": "shao2026misevolve",
+            "label": "Your Agent May Misevolve"
+          },
+          {
+            "id": "everitt2016selfmodification",
+            "label": "Self-Modification in Rational Agents"
+          },
+          {
+            "id": "tetek2020boundedrational",
+            "label": "Self-Modification in Bounded-Rational Agents"
+          },
+          {
+            "id": "yudkowsky2013tiling",
+            "label": "Tiling Agents"
+          },
+          {
+            "id": "fallenstein2015vingean",
+            "label": "Vingean Reflection"
+          },
+          {
+            "id": "sahoo2026sahoo",
+            "label": "SAHOO"
+          }
+        ]
+      },
+      {
+        "id": "behavior-safeguards",
+        "title": "Behavioral & Normative Safeguards",
+        "papers": [
+          {
+            "id": "kirk2024prism",
+            "label": "PRISM Alignment Dataset"
+          },
+          {
+            "id": "zhao2026safetyrisks",
+            "label": "Safety Risks in Experience-Driven Agents"
+          },
+          {
+            "id": "hashimoto2018fairness",
+            "label": "Fairness Without Demographics (DRO)"
+          },
+          {
+            "id": "wyllie2024fairnessloops",
+            "label": "Fairness Feedback Loops"
+          },
+          {
+            "id": "wang2026selfconsuming",
+            "label": "LLM Bias in Self-Consuming Performative Loop"
+          },
+          {
+            "id": "banerjee2026severa",
+            "label": "SEVerA"
+          },
+          {
+            "id": "khalaf2025inferencerewardhacking",
+            "label": "Inference-Time Reward Hacking in LLMs"
+          },
+          {
+            "id": "everitt2021rewardtamperingproblemssolutions",
+            "label": "Reward Tampering: Problems and Solutions"
+          },
+          {
+            "id": "yin2026onpolicy",
+            "label": "FATE / PFPO"
+          },
+          {
+            "id": "qu2026she",
+            "label": "SHE"
+          },
+          {
+            "id": "liu2018delayed",
+            "label": "Delayed Impact of Fair Machine Learning"
+          },
+          {
+            "id": "wang2025agenticeval",
+            "label": "AgenticEval"
+          },
+          {
+            "id": "diao2024seas",
+            "label": "SEAS"
+          },
+          {
+            "id": "tamirisa2025tamper",
+            "label": "TAR"
+          },
+          {
+            "id": "qi2025durability",
+            "label": "Evaluating Open-Weight Safeguard Durability"
+          },
+          {
+            "id": "cundy2025liedetectors",
+            "label": "Lie Detectors in Preference Learning"
+          },
+          {
+            "id": "zhang2026grader",
+            "label": "Double Ratchet"
+          },
+          {
+            "id": "hall2025fairnessreward",
+            "label": "Fairness Reward Model (FRM)"
+          },
+          {
+            "id": "qi2024finetuning",
+            "label": "Fine-Tuning Aligned LLMs Compromises Safety"
+          },
+          {
+            "id": "betley2025emergent",
+            "label": "Emergent Misalignment"
+          },
+          {
+            "id": "shao2026misevolve",
+            "label": "Your Agent May Misevolve"
+          },
+          {
+            "id": "everitt2016selfmodification",
+            "label": "Self-Modification in Rational Agents"
+          },
+          {
+            "id": "tetek2020boundedrational",
+            "label": "Self-Modification in Bounded-Rational Agents"
+          },
+          {
+            "id": "yudkowsky2013tiling",
+            "label": "Tiling Agents"
+          },
+          {
+            "id": "fallenstein2015vingean",
+            "label": "Vingean Reflection"
+          },
+          {
+            "id": "zhang2025controllable",
+            "label": "CoSA / CoSAlign"
+          }
+        ]
+      },
+      {
+        "id": "behavior-evidence",
+        "title": "Evidence & Research Gaps",
+        "papers": []
+      }
+    ]
+  },
+  {
+    "id": "system-security",
+    "title": "Security, Privacy & Data Governance",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "security-risks",
+        "title": "Risks Across S1–S4 & RI",
+        "papers": [
+          {
+            "id": "chen2024agentpoisonredteamingllmagents",
+            "label": "AgentPoison"
+          },
+          {
+            "id": "dong2025minja",
+            "label": "MINJA"
+          },
+          {
+            "id": "yang2026zombie",
+            "label": "Zombie Agents"
+          },
+          {
+            "id": "wang2026oeppoisoningselfevolvingllm",
+            "label": "OEP"
+          },
+          {
+            "id": "zhang2026privacypeekauditingllmbasedagents",
+            "label": "PrivacyPeek"
+          },
+          {
+            "id": "mireshghallah2025cimemoriescompositionalbenchmarkcontextual",
+            "label": "CIMemories"
+          },
+          {
+            "id": "ying2026skilljackpersistentskillbackdoors",
+            "label": "SkillJack"
+          },
+          {
+            "id": "wu2026evomalselfpoisoningselfevolvingcoding",
+            "label": "EVOMAL"
+          },
+          {
+            "id": "zhu2026stealthapartharmtogether",
+            "label": "SkillCascade"
+          },
+          {
+            "id": "xiang2026agentslearnyoubenchmarking",
+            "label": "AntiSkillBench"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "wang2026auditingharnesstamperingselfimproving",
+            "label": "Auditing Harness Tampering"
+          },
+          {
+            "id": "wang2025unveilingprivacyrisksllm",
+            "label": "MEXTRA"
+          },
+          {
+            "id": "lyu2026adam",
+            "label": "ADAM"
+          },
+          {
+            "id": "wu2025unlearned",
+            "label": "Unlearned but Not Forgotten"
+          },
+          {
+            "id": "xu2026unlearningisntdeletioninvestigating",
+            "label": "Unlearning Isn't Deletion"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          }
+        ]
+      },
+      {
+        "id": "security-safeguards",
+        "title": "Safeguards Across S1–S4 & RI",
+        "papers": [
+          {
+            "id": "louck2026securingllmagentlongtermmemory",
+            "label": "TMA-NM"
+          },
+          {
+            "id": "wang2026rememberrevealprivacyawarememory",
+            "label": "SP-Mem"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "debenedetti2025defeatingpromptinjectionsdesign",
+            "label": "CaMeL"
+          },
+          {
+            "id": "mecca2026skillsecurerdetectingpatchingpromptinjection",
+            "label": "SkillSecurer"
+          },
+          {
+            "id": "zheng2026benchshieldformalmodelbackedinstrumentation",
+            "label": "BenchShield"
+          },
+          {
+            "id": "wang2026mempotdefendingmemoryextraction",
+            "label": "MemPot"
+          },
+          {
+            "id": "johnson2026aimprivacyawareinteroperablememory",
+            "label": "AIM"
+          },
+          {
+            "id": "abadi2016deeplearningdifferentialprivacy",
+            "label": "DP-SGD"
+          },
+          {
+            "id": "dwork2014foundations",
+            "label": "Foundations of Differential Privacy"
+          }
+        ]
+      },
+      {
+        "id": "security-evidence",
+        "title": "Evidence, Gaps & Priorities",
+        "papers": [
+          {
+            "id": "dong2025minja",
+            "label": "MINJA"
+          },
+          {
+            "id": "yang2026zombie",
+            "label": "Zombie Agents"
+          },
+          {
+            "id": "ying2026skilljackpersistentskillbackdoors",
+            "label": "SkillJack"
+          },
+          {
+            "id": "wu2026evomalselfpoisoningselfevolvingcoding",
+            "label": "EVOMAL"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "zheng2026benchshieldformalmodelbackedinstrumentation",
+            "label": "BenchShield"
+          },
+          {
+            "id": "lyu2026adam",
+            "label": "ADAM"
+          },
+          {
+            "id": "xiang2026agentslearnyoubenchmarking",
+            "label": "AntiSkillBench"
+          },
+          {
+            "id": "wu2025unlearned",
+            "label": "Unlearned but Not Forgotten"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          },
+          {
+            "id": "wang2026auditingharnesstamperingselfimproving",
+            "label": "Auditing Harness Tampering"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "governance",
+    "title": "Transparency & Control",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "governance-definitions",
+        "title": "Definitions & Claims",
+        "papers": [
+          {
+            "id": "li2023trustworthy",
+            "label": "Trustworthy AI: From Principles to Practices"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          },
+          {
+            "id": "guan2025monitorability",
+            "label": "Monitoring Monitorability"
+          },
+          {
+            "id": "hleg2019ethics",
+            "label": "Ethics Guidelines for Trustworthy AI"
+          },
+          {
+            "id": "soares2015corrigibility",
+            "label": "Corrigibility"
+          },
+          {
+            "id": "shen2026controllable",
+            "label": "A Survey of Controllable Learning"
+          },
+          {
+            "id": "nian2026auditable",
+            "label": "Auditable Agents"
+          },
+          {
+            "id": "raji2020accountability",
+            "label": "SMACTR"
+          }
+        ]
+      },
+      {
+        "id": "governance-risks",
+        "title": "Risks & Failures",
+        "papers": [
+          {
+            "id": "cemri2025mast",
+            "label": "MAST / MAST-Data"
+          },
+          {
+            "id": "barke2026agentrx",
+            "label": "AgentRx"
+          },
+          {
+            "id": "chen2026traceelephant",
+            "label": "TraceElephant"
+          },
+          {
+            "id": "betley2025selfreports",
+            "label": "LLMs Are Aware of Their Learned Behaviors"
+          },
+          {
+            "id": "arcuschin2026wildfaithfulness",
+            "label": "CoT in the Wild Is Not Always Faithful"
+          },
+          {
+            "id": "williams2025manipulation",
+            "label": "Targeted Manipulation and Deception"
+          },
+          {
+            "id": "makelov2024illusion",
+            "label": "Subspace Activation Patching Illusion"
+          },
+          {
+            "id": "gurarieh2026faithfulnessmetrics",
+            "label": "Faithfulness Metrics Don't Measure Faithfulness"
+          },
+          {
+            "id": "mckenzie2026steeringresistance",
+            "label": "Endogenous Resistance to Activation Steering"
+          },
+          {
+            "id": "burns2024weaktostrong",
+            "label": "Weak-to-Strong Generalization"
+          },
+          {
+            "id": "goel2025thinkalike",
+            "label": "Great Models Think Alike"
+          },
+          {
+            "id": "huang2026reward",
+            "label": "Reward Hacking Challenges Research Oversight"
+          },
+          {
+            "id": "baker2025monitoring",
+            "label": "Monitoring Reasoning Models for Misbehavior"
+          },
+          {
+            "id": "drori2026spillover",
+            "label": "Output Supervision Can Obfuscate CoT"
+          },
+          {
+            "id": "terekhov2026adaptivemonitors",
+            "label": "Adaptive Attacks on Trusted Monitors"
+          },
+          {
+            "id": "zhang2026librarydrift",
+            "label": "Library Drift"
+          },
+          {
+            "id": "wu2026interruptible",
+            "label": "Are Large Reasoning Models Interruptible?"
+          },
+          {
+            "id": "zhang2026interventionvalue",
+            "label": "Calibration Is Not Control"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "zheng2026dreamrsi",
+            "label": "Dream-RSI"
+          },
+          {
+            "id": "dai2026recursivereward",
+            "label": "Recursive Reward Improvement"
+          },
+          {
+            "id": "xu2026evo2",
+            "label": "Evo2"
+          }
+        ]
+      },
+      {
+        "id": "governance-safeguards",
+        "title": "Safeguards & Limits",
+        "papers": [
+          {
+            "id": "liu2026whowhenpro",
+            "label": "Who&When Pro"
+          },
+          {
+            "id": "zhu2026aed",
+            "label": "AED (Agent Error Dataset)"
+          },
+          {
+            "id": "mayne2026positivefaithfulness",
+            "label": "A Positive Case for Faithfulness"
+          },
+          {
+            "id": "ferreira2026causalexplanations",
+            "label": "Truthful or Fabricated? Causal Attribution"
+          },
+          {
+            "id": "mueller2025mib",
+            "label": "MIB"
+          },
+          {
+            "id": "marks2025circuits",
+            "label": "Sparse Feature Circuits"
+          },
+          {
+            "id": "wu2025axbench",
+            "label": "AxBench"
+          },
+          {
+            "id": "li2026memoryechoinsingleagentl",
+            "label": "Family–Provenance–Authority (Memory Echo)"
+          },
+          {
+            "id": "charakorn2025texttolora",
+            "label": "Text-to-LoRA"
+          },
+          {
+            "id": "liu2026shine",
+            "label": "SHINE"
+          },
+          {
+            "id": "charakorn2026doctolora",
+            "label": "Doc-to-LoRA"
+          },
+          {
+            "id": "zhang2026skilltolora",
+            "label": "Skill-to-LoRA"
+          },
+          {
+            "id": "yu2026latentskill",
+            "label": "LatentSkill"
+          },
+          {
+            "id": "zhao2026faithful",
+            "label": "Agents Are Not Always Faithful Self-Evolvers"
+          },
+          {
+            "id": "shen2026controllable",
+            "label": "A Survey of Controllable Learning"
+          },
+          {
+            "id": "zhang2026librarydrift",
+            "label": "Library Drift"
+          },
+          {
+            "id": "zhao2026parametric",
+            "label": "Parametric Skills"
+          },
+          {
+            "id": "jeon2025w2sshift",
+            "label": "Weak-to-Strong Generalization under Shift"
+          },
+          {
+            "id": "kenton2024weakjudges",
+            "label": "Weak LLMs Judging Strong LLMs"
+          },
+          {
+            "id": "rahman2025humandebate",
+            "label": "AI Debate for Controversial Claims"
+          },
+          {
+            "id": "browncohen2024debate",
+            "label": "Doubly-Efficient Debate for AI Safety"
+          },
+          {
+            "id": "huang2026reward",
+            "label": "Reward Hacking Challenges Research Oversight"
+          },
+          {
+            "id": "kale2026monitoring",
+            "label": "MRT / CUA-SHADE-Arena"
+          },
+          {
+            "id": "jung2025escalate",
+            "label": "Cascaded Selective Evaluation"
+          },
+          {
+            "id": "greenblatt2024control",
+            "label": "AI Control"
+          },
+          {
+            "id": "costa2026fides",
+            "label": "Fides"
+          },
+          {
+            "id": "dobrin2026kernel",
+            "label": "Unfireable Safety Kernel"
+          },
+          {
+            "id": "orseau2016interruptible",
+            "label": "Safely Interruptible Agents"
+          },
+          {
+            "id": "hudson2026corrigibility",
+            "label": "Corrigibility Transformation"
+          },
+          {
+            "id": "richter2025behavioralshift",
+            "label": "Auditing Behavioral Shift in Language Models"
+          },
+          {
+            "id": "zhou2026traceaudit",
+            "label": "Counterfactual Trace Auditing (CTA)"
+          },
+          {
+            "id": "chen2026mechanisticdata",
+            "label": "Mechanistic Data Attribution"
+          },
+          {
+            "id": "yang2026frontis",
+            "label": "Frontis-MA1"
+          },
+          {
+            "id": "tian2026harnessevolutionhitsacei",
+            "label": "Harness Evolution Hits a Ceiling"
+          },
+          {
+            "id": "nian2026auditable",
+            "label": "Auditable Agents"
+          },
+          {
+            "id": "barke2026agentrx",
+            "label": "AgentRx"
+          },
+          {
+            "id": "chen2026traceelephant",
+            "label": "TraceElephant"
+          },
+          {
+            "id": "lin2026ahe",
+            "label": "AHE (Agentic Harness Engineering)"
+          },
+          {
+            "id": "eisenach2026l3m",
+            "label": "L3M"
+          },
+          {
+            "id": "gross2024compactproofs",
+            "label": "Compact Proofs of Model Performance"
+          },
+          {
+            "id": "clymer2024safetycases",
+            "label": "Safety Cases"
+          }
+        ]
+      },
+      {
+        "id": "governance-evidence",
+        "title": "Evidence & Research Gaps",
+        "papers": [
+          {
+            "id": "zhu2026aed",
+            "label": "AED (Agent Error Dataset)"
+          },
+          {
+            "id": "drori2026spillover",
+            "label": "Output Supervision Can Obfuscate CoT"
+          },
+          {
+            "id": "huang2026reward",
+            "label": "Reward Hacking Challenges Research Oversight"
+          },
+          {
+            "id": "zhao2026parametric",
+            "label": "Parametric Skills"
+          },
+          {
+            "id": "eisenach2026l3m",
+            "label": "L3M"
+          },
+          {
+            "id": "chen2026mechanisticdata",
+            "label": "Mechanistic Data Attribution"
+          },
+          {
+            "id": "dai2026recursivereward",
+            "label": "Recursive Reward Improvement"
+          },
+          {
+            "id": "xu2026evo2",
+            "label": "Evo2"
+          },
+          {
+            "id": "sun2026equivalence",
+            "label": "Equivalent Mechanistic Interpretations"
+          },
+          {
+            "id": "terekhov2026adaptivemonitors",
+            "label": "Adaptive Attacks on Trusted Monitors"
+          },
+          {
+            "id": "zhang2026interventionvalue",
+            "label": "Calibration Is Not Control"
+          },
+          {
+            "id": "nian2026auditable",
+            "label": "Auditable Agents"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evaluation",
+    "title": "Evaluation & Evidence",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "eval-benchmarks",
+        "title": "Evaluation Settings & Gaps",
+        "papers": [
+          {
+            "id": "wijk2024rebench",
+            "label": "RE-Bench"
+          },
+          {
+            "id": "rank2026posttrainbench",
+            "label": "PostTrainBench"
+          },
+          {
+            "id": "meng2026rsibench",
+            "label": "RSIBench-Data"
+          },
+          {
+            "id": "li2026traceevolutionbench",
+            "label": "Trace Evolution Bench (TEB)"
+          },
+          {
+            "id": "lin2026beyondendpointperformanc",
+            "label": "EvoPathBench"
+          },
+          {
+            "id": "singh2026plasticity",
+            "label": "Agent Plasticity"
+          },
+          {
+            "id": "lin2026harnessbenefit",
+            "label": "Harness Updating Is Not Harness Benefit"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "zheng2026dreamrsi",
+            "label": "Dream-RSI"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          },
+          {
+            "id": "shao2026misevolve",
+            "label": "Your Agent May Misevolve"
+          },
+          {
+            "id": "das2026seabench",
+            "label": "SEABench"
+          },
+          {
+            "id": "debenedetti2024agentdojo",
+            "label": "AgentDojo"
+          },
+          {
+            "id": "greenblatt2024control",
+            "label": "AI Control"
+          }
+        ]
+      },
+      {
+        "id": "eval-longitudinal",
+        "title": "Longitudinal Tests: S1–S4/RI",
+        "papers": [
+          {
+            "id": "guo2026selfauthored",
+            "label": "SEAL (Sealed Exogenous Acceptance Loop)"
+          },
+          {
+            "id": "meng2026rsibench",
+            "label": "RSIBench-Data"
+          },
+          {
+            "id": "li2026traceevolutionbench",
+            "label": "Trace Evolution Bench (TEB)"
+          },
+          {
+            "id": "lin2026beyondendpointperformanc",
+            "label": "EvoPathBench"
+          },
+          {
+            "id": "wijk2024rebench",
+            "label": "RE-Bench"
+          },
+          {
+            "id": "singh2026plasticity",
+            "label": "Agent Plasticity"
+          }
+        ]
+      },
+      {
+        "id": "eval-evidence",
+        "title": "Independent Evidence/Joint Tests",
+        "papers": [
+          {
+            "id": "rank2026posttrainbench",
+            "label": "PostTrainBench"
+          },
+          {
+            "id": "shawn2026pace",
+            "label": "PACE"
+          },
+          {
+            "id": "wu2026sgm",
+            "label": "SGM"
+          },
+          {
+            "id": "liang2022holistic",
+            "label": "HELM"
+          },
+          {
+            "id": "das2026seabench",
+            "label": "SEABench"
+          },
+          {
+            "id": "debenedetti2024agentdojo",
+            "label": "AgentDojo"
+          },
+          {
+            "id": "greenblatt2024control",
+            "label": "AI Control"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "outlook",
+    "title": "Applications & Open Problems",
+    "papers": [],
+    "subsections": [
+      {
+        "id": "outlook-findings",
+        "title": "Findings & Evidence Bounds",
+        "papers": [
+          {
+            "id": "yu2026forget",
+            "label": "Capability-Preserving Evolution (CPE)"
+          },
+          {
+            "id": "shao2026misevolve",
+            "label": "Your Agent May Misevolve"
+          },
+          {
+            "id": "guo2026selfauthored",
+            "label": "SEAL (Sealed Exogenous Acceptance Loop)"
+          },
+          {
+            "id": "roesner2026trustingtrust",
+            "label": "Reflections on Trusting Trust, Revisited"
+          },
+          {
+            "id": "gong2026evolutionarysafetyrecursiveselfimproving",
+            "label": "Evolutionary Safety of RSI"
+          },
+          {
+            "id": "chen2026safetyselfevolvingagentssurvey",
+            "label": "Safety in Self-Evolving Agents: A Survey"
+          }
+        ]
+      },
+      {
+        "id": "outlook-apps",
+        "title": "Applications/Claim Transfer",
+        "papers": [
+          {
+            "id": "rosser2025agentbreeder",
+            "label": "AgentBreeder"
+          },
+          {
+            "id": "mao2026safeevolveharnesspolicycoevolutionagent",
+            "label": "SafeEvolve"
+          },
+          {
+            "id": "cheng2026safecoevocoevolvingsafetyharnesses",
+            "label": "SafeCoEvo"
+          },
+          {
+            "id": "wu2026sgm",
+            "label": "SGM"
+          },
+          {
+            "id": "sun2026reuse",
+            "label": "REUSE"
+          },
+          {
+            "id": "zhang2025dgm",
+            "label": "DGM (Darwin Gödel Machine)"
+          },
+          {
+            "id": "zheng2026dreamrsi",
+            "label": "Dream-RSI"
+          },
+          {
+            "id": "zhang2026hyperagents",
+            "label": "Hyperagents"
+          },
+          {
+            "id": "roesner2026trustingtrust",
+            "label": "Reflections on Trusting Trust, Revisited"
+          },
+          {
+            "id": "guo2026selfauthored",
+            "label": "SEAL (Sealed Exogenous Acceptance Loop)"
+          },
+          {
+            "id": "iacob2026redqueen",
+            "label": "Red Queen Gödel Machine"
+          },
+          {
+            "id": "ouyang2026reasoningbank",
+            "label": "ReasoningBank"
+          },
+          {
+            "id": "zhang2025memevolve",
+            "label": "MemEvolve"
+          },
+          {
+            "id": "li2026sesearchselfevolvingsearchagent",
+            "label": "SE-Search"
+          },
+          {
+            "id": "lee2026selfevolvingsearchindex",
+            "label": "SELF-INDEX"
+          },
+          {
+            "id": "wu2026medrsirecursiveselfimprovementmedical",
+            "label": "MedRSI"
+          },
+          {
+            "id": "liang2026robofoundrysystemaspolicyevolutionselflearning",
+            "label": "RoboFoundry"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          },
+          {
+            "id": "hleg2019ethics",
+            "label": "Ethics Guidelines for Trustworthy AI"
+          }
+        ]
+      },
+      {
+        "id": "outlook-open",
+        "title": "Open Problems",
+        "papers": [
+          {
+            "id": "zhao2026safetyrisks",
+            "label": "Safety Risks in Experience-Driven Agents"
+          },
+          {
+            "id": "shao2026misevolve",
+            "label": "Your Agent May Misevolve"
+          },
+          {
+            "id": "wu2026socialbias",
+            "label": "Social Biases Through Adaptive Exploration"
+          },
+          {
+            "id": "dong2025minja",
+            "label": "MINJA"
+          },
+          {
+            "id": "roesner2026trustingtrust",
+            "label": "Reflections on Trusting Trust, Revisited"
+          },
+          {
+            "id": "soares2015corrigibility",
+            "label": "Corrigibility"
+          },
+          {
+            "id": "kale2026monitoring",
+            "label": "MRT / CUA-SHADE-Arena"
+          },
+          {
+            "id": "guo2026selfauthored",
+            "label": "SEAL (Sealed Exogenous Acceptance Loop)"
+          },
+          {
+            "id": "sun2026reuse",
+            "label": "REUSE"
+          },
+          {
+            "id": "zhang2026grader",
+            "label": "Double Ratchet"
+          },
+          {
+            "id": "wu2026sgm",
+            "label": "SGM"
+          },
+          {
+            "id": "lin2026harnessbenefit",
+            "label": "Harness Updating Is Not Harness Benefit"
+          },
+          {
+            "id": "wang2026harnessevaluation",
+            "label": "Evaluating Harness Evolution for Agents"
+          },
+          {
+            "id": "huang2024trustllm",
+            "label": "TrustLLM"
+          },
+          {
+            "id": "nist2023airmf",
+            "label": "NIST AI RMF 1.0"
+          }
+        ]
+      }
+    ]
+  }
+]
