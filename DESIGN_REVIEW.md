@@ -2,6 +2,20 @@
 
 Public site: https://pujiayue.github.io/Trustworthy-RSI/
 
+## Latest revision: light interface
+
+The user subsequently requested a light background. This revision supersedes the midnight palette described in the earlier review below.
+
+- Warm off-white canvas, soft blue section backgrounds, and dark navy typography.
+- Sage, sand, lavender, and blue module cards with stronger action labels and quieter borders.
+- Blue primary actions and a gold saved state; the literature workspace has its own light-blue toolbar and white result cards.
+- Refined figure frames, rounded controls, spacing, and application-context cards. Original figure colors and crop remain intact.
+- Mobile and desktop visual checks include the homepage, theme cards, library toolbar, search, and saved state. No horizontal overflow at the tested 390-pixel mobile viewport; no browser warnings or errors observed.
+- Scientific wording, bibliography data, and application logic remain unchanged.
+- Stylesheet URL includes a version marker to avoid retaining the previous dark theme in cache.
+
+The remainder records the earlier content/functionality review and its design references.
+
 ## Reference study
 
 The review examined current academic project pages and their public HTML/CSS. The following ideas informed this revision; the midnight palette is a choice for this project, not a claim that these references use dark themes.
