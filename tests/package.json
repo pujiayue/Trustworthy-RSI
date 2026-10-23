@@ -1,0 +1,10 @@
+{
+  "name": "trustworthy-rsi-site-tests",
+  "private": true,
+  "scripts": {
+    "test": "node library.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

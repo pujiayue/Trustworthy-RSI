@@ -2,9 +2,14 @@
 
 Public URL: https://pujiayue.github.io/Trustworthy-RSI/
 
-This branch contains the static website served by GitHub Pages from the branch root.
-The survey bibliography and taxonomy remain on the main branch.
+GitHub Pages serves this static site from the root of the `gh-pages` branch.
+The survey bibliography and taxonomy remain on `main`.
 
-To update the website, copy the validated contents of the website dist directory into this branch, retain .nojekyll, commit, and push. All website asset paths are relative so they work under /Trustworthy-RSI/.
+Edit and validate this branch, retain `.nojekyll`, commit, and push to `gh-pages`.
+GitHub's native Pages build publishes the update. All application asset paths are relative and work under `/Trustworthy-RSI/`.
 
-Fonts: Inter, with its license in assets/Inter-LICENSE.txt.
+The current design is implemented by `styles.css` plus `theme.css`. `app.js` handles the process explorer, bibliography filters, saved reading list, shared filter URLs, exports, and dialogs. `data.js` contains the supplied bibliography and taxonomy.
+
+Fonts: locally hosted Inter, licensed in `assets/Inter-LICENSE.txt`.
+Behavioral tests: `npm --prefix tests ci && npm --prefix tests test`.
+Design and content review: [DESIGN_REVIEW.md](DESIGN_REVIEW.md).
