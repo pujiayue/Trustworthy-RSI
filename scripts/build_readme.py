@@ -58,7 +58,7 @@ def main(check=False):
         '[![Literature](https://img.shields.io/badge/Literature-'+str(len(cited))+'_classified_%C2%B7_'+str(len(entries))+'_references-0F7C73)](docs/PAPER_INDEX.md)',
         '[![BibTeX](https://img.shields.io/badge/References-BibTeX-213C60)](bibliography/references.bib)',
         '[![Contributions](https://img.shields.io/badge/Contributions-welcome-6A5ACD)](CONTRIBUTING.md)', '',
-        '[Reading List](#contents) · [Full Paper Index](docs/PAPER_INDEX.md) · [BibTeX](bibliography/references.bib) · [Contributing](CONTRIBUTING.md)', '',
+        '[Survey Website](https://pujiayue.github.io/Trustworthy-RSI/) · [Reading List](#contents) · [Full Paper Index](docs/PAPER_INDEX.md) · [BibTeX](bibliography/references.bib) · [Contributing](CONTRIBUTING.md)', '',
         '</div>', '',
         '[![Trustworthy RSI: improvement validity, constraint preservation, and effective oversight](assets/overview.png)](assets/overview.pdf)', '',
         '> Trustworthy progress requires evidence that gains, safeguards, and human oversight remain effective across successive updates and recursive revisions.', '',

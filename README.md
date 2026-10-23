@@ -10,7 +10,7 @@
 [![BibTeX](https://img.shields.io/badge/References-BibTeX-213C60)](bibliography/references.bib)
 [![Contributions](https://img.shields.io/badge/Contributions-welcome-6A5ACD)](CONTRIBUTING.md)
 
-[Reading List](#contents) · [Full Paper Index](docs/PAPER_INDEX.md) · [BibTeX](bibliography/references.bib) · [Contributing](CONTRIBUTING.md)
+[Survey Website](https://pujiayue.github.io/Trustworthy-RSI/) · [Reading List](#contents) · [Full Paper Index](docs/PAPER_INDEX.md) · [BibTeX](bibliography/references.bib) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
